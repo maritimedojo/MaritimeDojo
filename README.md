@@ -30,13 +30,13 @@ Implement following validation rules:
 Note that for reservation dates, we take into account only date and an hour, minutes and seconds doesn't matter.
 
 2) Implement DateTimeExtensions.cs
-   a) Implement GetPreviousDayOfWeek extension method:
+   - a) Implement GetPreviousDayOfWeek extension method:
       - idea is to get the previous date from a given date and day of week
       - Examples:-
         - If date = Tuesday 4th June, and dayOfWeek is DayOfWeek.Monday then the result returned should be Monday 3rd June
         - If date = Tuesday 4th June, and dayOfWeek is DayOfWeek.Wednesday then the result returned should be Wednesday 29th May
         - If date = Tuesday 4th June, and dayOfWeek is DayOfWeek.Tuesday then the result returned should be Tuesday 28th May
-   b) Implement GetNextDayOfWeek extension method:
+   - b) Implement GetNextDayOfWeek extension method:
       - idea is to get the next date from a given date and day of week
       - Examples:-
         - If date = Tuesday 4th June, and dayOfWeek is DayOfWeek.Monday then the result returned should be Monday 10th June
@@ -44,17 +44,17 @@ Note that for reservation dates, we take into account only date and an hour, min
         - If date = Tuesday 4th June, and dayOfWeek is DayOfWeek.Tuesday then the result returned should be Tuesday 11th June
 
 3) Implement StringExtension.cs
-   a) Implement GetWordFromText extension method:
-      - idea is to return a specific work of an input text. Words are separated by space (' ').
+   - a) Implement GetWordFromText extension method:
+      ** idea is to return a specific work of an input text. Words are separated by space (' '). **
       - Examples:-
-      - GetWordFromText("one two three", 2)
-        Should return "two"
+        - GetWordFromText("one two three", 2)
+          - Should return "two"
       
-      - GetWordFromText("one;two three", 2)
-        Should return "three"
+        - GetWordFromText("one;two three", 2)
+          - Should return "three"
       
-      - GetWordFromText("one", 1)
-        Should return "one"
+        - GetWordFromText("one", 1)
+          -Should return "one"
       
       #### Be aware of ####
       
@@ -63,8 +63,8 @@ Note that for reservation dates, we take into account only date and an hour, min
       When input is null method should throw 'ArgumentNullException'.
       
       The method should ignore all spaces at the beginning and at the end of the input text.
-  b) Implement Reverse extension method:
-     - idea is to return a reversed string of the passed input value
+  - b) Implement Reverse extension method:
+     ** idea is to return a reversed string of the passed input value **
      - Examples:-
      - Reverse("one")
        Should return "eno"
