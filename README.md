@@ -45,7 +45,7 @@ Note that for reservation dates, we take into account only date and an hour, min
 
 3) Implement StringExtension.cs
    - a) Implement GetWordFromText extension method:
-      ** idea is to return a specific work of an input text. Words are separated by space (' '). **
+      #### idea is to return a specific work of an input text. Words are separated by space (' '). ####
       - Examples:-
         - GetWordFromText("one two three", 2)
           - Should return "two"
@@ -64,7 +64,7 @@ Note that for reservation dates, we take into account only date and an hour, min
       
       The method should ignore all spaces at the beginning and at the end of the input text.
   - b) Implement Reverse extension method:
-     ** idea is to return a reversed string of the passed input value **
+     #### idea is to return a reversed string of the passed input value ####
      - Examples:-
      - Reverse("one")
        Should return "eno"
